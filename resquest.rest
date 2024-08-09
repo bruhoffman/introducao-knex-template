@@ -1,0 +1,27 @@
+GET http://localhost:3003/ping
+###
+
+POST http://localhost:3003/create-table-bands
+###
+
+GET http://localhost:3003/bands
+###
+
+POST http://localhost:3003/bands
+Content-Type: application/json
+
+{
+    "id": "b003", "name": "Engenheiros do Hawaí"
+}
+###
+
+DELETE http://localhost:3003/bands/b002
+###
+
+PUT http://localhost:3003/bands/b003
+Content-Type: application/json
+
+{
+    "id": "b002"
+}
+###

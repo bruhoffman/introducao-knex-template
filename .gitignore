@@ -1,4 +1,4 @@
+/node_modules
+**/*.db
 .env
-.DS_STORE
-node_modules
-build
+/build
